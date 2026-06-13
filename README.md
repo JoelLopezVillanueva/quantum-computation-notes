@@ -1,20 +1,27 @@
-# Apuntes de Computación e Información Cuántica
+# Computación e Información Cuántica
 
-Este repositorio contiene mis apuntes personales y desarrollos matemáticos basados en los cursos de computación cuántica teórica de CMU y el MIT. El objetivo es recopilar el temario de forma clara y estructurada en formato digital a lo largo del curso.
+Este repositorio contiene mi espacio de trabajo, apuntes teóricos y cuadernos de desarrollo práctico en computación cuántica. El proyecto se encuentra en desarrollo activo y se irá completando de forma progresiva a lo largo del curso.
 
-## Cursos de referencia
+## Estructura y Contenido
 
-* **CS 15-459: Undergraduate Quantum Computation** – Prof. Ryan O'Donnell (Carnegie Mellon University).
-  * Enfoque: Informática teórica, complejidad computacional y análisis matemático de algoritmos (Shor, Grover, QFT).
-* **Quantum Information Science Series** – Prof. Aram Harrow (Massachusetts Institute of Technology / edX).
-  * Enfoque: Física de la información, entrelazamiento, corrección de errores y protocolos cuánticos.
+### 1. Apuntes Teóricos (LaTeX)
+Notas de clase maquetadas en LaTeX basadas en los siguientes programas académicos:
+* **CS 15-459: Undergraduate Quantum Computation** (Carnegie Mellon University) – Prof. Ryan O'Donnell. Enfoque en informática teórica, complejidad computacional y análisis matemático de algoritmos.
+* **Quantum Information Science Series** (MIT / edX) – Prof. Aram Harrow. Enfoque en física de la información, entrelazamiento, protocolos cuánticos y corrección de errores.
 
-## Estructura del repositorio
+### 2. Cuadernos de Laboratorio (Jupyter Notebooks)
+Implementaciones prácticas en Python y notas de desarrollo basadas en literatura científica de optimización y aprendizaje automático cuántico (QML):
+* **Optimización Cuántica (QUBO/Ising):** Formulación matemática y resolución de problemas NP-difíciles (Max-Cut, Mochila, Coloreado de grafos, TSP) mediante el modelo de Ising. Pruebas con simuladores locales de recocido cuántico (*quantum annealing*).
+* **Quantum Machine Learning (QML):** Transición de arquitecturas de redes neuronales clásicas (TensorFlow/Keras) hacia modelos híbridos y de aprendizaje cuántico supervisado (CQ).
 
-* `/PDFs/` - Documentos finales compilados listos para lectura.
-* `/LaTeX/` - Archivos fuente `.tex` y archivos de configuración.
+## Organización del Repositorio
+
+* `/LaTeX/` - Archivos fuente `.tex` de los apuntes de clase.
+* `/PDFs/` - Documentos finales ya compilados listos para lectura.
+* `/Notebooks/` - Cuadernos de Jupyter con las simulaciones de optimización y QML.
 * `/TikZ/` - Código fuente de los esquemas y circuitos cuánticos vectoriales.
 
-## Formato y herramientas
+## Tecnologías y Librerías
 
-Todos los apuntes están redactados en **LaTeX** utilizando paquetes estándar (`amsmath`, `amssymb`, `physics`) para garantizar la corrección en la notación matemática, y `tikz` para la generación de diagramas de circuitos.
+* **Redacción:** LaTeX (paquetes `amsmath`, `amssymb`, `physics`, `tikz`).
+* **Computación Cuántica:** Python (Miniconda) con `pennylane`, `qiskit`, `pennylane-qiskit`, `dimod` y `dwave-neal`.
