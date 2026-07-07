@@ -6,7 +6,7 @@ Este repositorio contiene mi espacio de trabajo, apuntes teóricos y cuadernos d
 
 ### 1. Apuntes Teóricos (LaTeX)
 Notas de clase maquetadas en LaTeX basadas en los siguientes programas académicos:
-* Undergraduate Quantum Computation** (Carnegie Mellon University) – Prof. Ryan O'Donnell. Enfoque en informática teórica, complejidad computacional y análisis matemático de algoritmos.
+* **Undergraduate Quantum Computation** (Carnegie Mellon University) – Prof. Ryan O'Donnell. Enfoque en informática teórica, complejidad computacional y análisis matemático de algoritmos.
 
 
 ### 2. Cuadernos de Laboratorio (Jupyter Notebooks)
