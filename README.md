@@ -6,8 +6,8 @@ Este repositorio contiene mi espacio de trabajo, apuntes teóricos y cuadernos d
 
 ### 1. Apuntes Teóricos (LaTeX)
 Notas de clase maquetadas en LaTeX basadas en los siguientes programas académicos:
-* **CS 15-459: Undergraduate Quantum Computation** (Carnegie Mellon University) – Prof. Ryan O'Donnell. Enfoque en informática teórica, complejidad computacional y análisis matemático de algoritmos.
-* **Quantum Information Science Series** (MIT / edX) – Prof. Aram Harrow. Enfoque en física de la información, entrelazamiento, protocolos cuánticos y corrección de errores.
+* Undergraduate Quantum Computation** (Carnegie Mellon University) – Prof. Ryan O'Donnell. Enfoque en informática teórica, complejidad computacional y análisis matemático de algoritmos.
+
 
 ### 2. Cuadernos de Laboratorio (Jupyter Notebooks)
 Implementaciones prácticas en Python y notas de desarrollo basadas en literatura científica de optimización y aprendizaje automático cuántico (QML):
